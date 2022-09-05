@@ -10,11 +10,11 @@ const usersRoutes=require("./route/users.route")
 
 
 
-app.use('/api/user',usersRoutes)
+app.use('https://rest-api-omega.vercel.app/api/user',usersRoutes)
 // app.use('/api/user',usersRoutes)
 
 
-app.get('/', (req, res) => {
+app.get('https://rest-api-omega.vercel.app', (req, res) => {
   res.send('Hello World!')
 })
 
